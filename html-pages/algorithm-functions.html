@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript Function Library</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="row mt-2">
+            <div class="col-12">
+               <h1 class="d-flex justify-content-center">
+                  JavaScript Functions: Algorithms
+               </h1>
+               <p class="text-center lead mb-4">
+                  <span id="totalFunctionNum"></span> functions documented
+               </p>
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>chunkArrayInGroups</b> - break an array into subarrays
+                     based on a specified size
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="newSize"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>mutation</b> - Iterate through an array to determine if
+                     all the letters in the second string are found in the first
+                     string
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>getIndexToIns</b> - return the index where the given
+                     value would belong in the sorted array
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array1"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="value"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>bouncer</b> - filter all falsey values</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array1"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>frankenSplice</b> - given two arrays copy each item of
+                     the first array into the second and place at a given index
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array1"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array2"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="indexNumber"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name"><b>titleCase</b> - title case a sentence</p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="sentence"
+                        value="I'm a little tea pot"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!--start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>booWho</b> - check is a value is boolean primitive
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder=""
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>findElement</b> - look through an array and return
+                     element that passes test
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>truncateString</b> trucate the string at a targeted
+                     index
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="string"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="target"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>repeatStringNumTimes</b> repeat a elements of a string
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="string"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="number"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>confirmEnding</b> - use slice to confirm the end
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="string"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="target"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>largestNumber</b> - return an array of the largest
+                     numbers
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="string"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>longestElement</b> - find the longest element of a
+                     string
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="string"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>factorialize</b> - multiply numerical input by each
+                     consecutive number minus one
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="number"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column  -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>reverseMe</b> - reverse the order of elements of an
+                     string
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="string"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>convertMe</b> - convert celsius to fahrenheit
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="celsius"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+            </div>
+         </div>
+      </div>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+         defer
+      ></script>
+      <script src="/functions.js" defer></script>
+      <script src="/utils.js" defer></script>
+      <script src="/ui.js" defer></script>
+   </body>
+</html>

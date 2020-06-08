@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript Function Library</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="row mt-2">
+            <div class="col-12">
+               <h1 class="d-flex justify-content-center">
+                  JavaScript Functions: Intermediate
+               </h1>
+               <p class="text-center lead mb-4">
+                  <span id="totalFunctionNum"></span> functions documented
+               </p>
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>checkVariable</b> - use typeof function to determine
+                     what kind of variable is in the array
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="checkVar"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>checkArray</b> - check for presence of an element using
+                     indexOf
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="element"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>addItemSplice</b> - remove and replace items in an array
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="start"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="end"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="addOn"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>removeItemSplice</b> - remove elements within an array
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="start"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="end"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>randomWholeNumberRange</b> - generate a random whole
+                     number within a range
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="min number"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="max number"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>randomWholeNumber</b> - generate a random number
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input type="text" class="form-control inline-action" />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>profileInfoLookup</b> - Look up a name or property from
+                     a contact list
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="enter name"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="likes"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>countingCards</b> - Count cards and determine hold or
+                     bet
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="card count"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+            </div>
+         </div>
+      </div>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+         defer
+      ></script>
+      <script src="/functions.js" defer></script>
+      <script src="/utils.js" defer></script>
+      <script src="/ui.js" defer></script>
+   </body>
+</html>
