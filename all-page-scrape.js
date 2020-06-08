@@ -5,15 +5,17 @@ const { getComponents, getName, getDesc, trim, getInputs } = require("./regex");
 
 function scrapeTheFile(typeGroup, orderNum) {
    // pass two parameters through the function
-   // typeGroup = the group that the file belongs to
-   // orderNum = the number representing the order of the number
-   const fileType = "./html-pages/" + typeGroup + ".html";
+   // typeGroup = the group that the function belongs to
+   // orderNum = the number representing the order of the function
+   const functionFileType = "./html-pages/" + typeGroup + ".html";
 
-   const sourceFile = String(fs.readFileSync(fileType));
+   const sourceFile = String(fs.readFileSync(functionFileType));
 
    const components = getComponents(sourceFile);
 
    const componentObjects = components.map((component) => {
+      console.log(component);
+
       return {
          name: getName(component)[0],
          desc: trim(getDesc(component)[0]),
@@ -40,6 +42,10 @@ allComponents = [];
 
 allComponents.push(...scrapeTheFile("basic-functions", 100));
 allComponents.push(...scrapeTheFile("intermediate-functions", 200));
+allComponents.push(...scrapeTheFile("functional", 300));
+allComponents.push(...scrapeTheFile("algorithm", 400));
+
+console.log(allComponents.length);
 
 const targetFile = "./dist/dist.json";
 
