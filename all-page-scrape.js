@@ -39,7 +39,7 @@ function scrapeTheFile(typeGroup, orderNum) {
 }
 
 allComponents = [];
-
+// here we are calling the function that scrapes the file and pushing it to a new array called allComponents
 allComponents.push(...scrapeTheFile("basic-functions", 100));
 allComponents.push(...scrapeTheFile("intermediate-functions", 200));
 allComponents.push(...scrapeTheFile("functional", 300));
